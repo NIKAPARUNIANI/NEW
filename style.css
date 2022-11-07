@@ -1,0 +1,31 @@
+#firstP, #secondP, #thirdP, #fourthP {
+    border: 5px solid;
+    border-color: rgba(15,15,15,1) rgba(45,45,45,1) rgba(163,158,158,1) rgba(188,132,32,1);
+    border-radius: 40px;
+    width: 75%;
+    height: 50px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+#firstP {
+    padding-top: 30px;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+#thirdP {
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 35px;
+    white-space: normal;
+}
+
+#fourthP {
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 35px;
+    white-space: normal;
+    overflow: auto;
+}
